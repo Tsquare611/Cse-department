@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CseDeparment</string>
+
+
+    <string name="dep_name">International Islamic University Chittagong (IIUC)\nComputer Science and Enginnering Department</string>
+    <string name="button_name">CSE</string>
+    <string name="welcome_txt">Welcome to CSE Department</string>
+    <string name="staff_txt">Faculty and Staff</string>
+    <string name="about_txt">About Us</string>
+    <string name="contact_txt">Contact</string>
+
+
+
+
+    <string name="faculty_txt">Mr. Tanveer Ahsan\n
+ B.Sc in CSE [EWU], M.Sc. [UoU, South Korea]\n
+ Associate Professor and Chairman\n
+ Dept. of Computer Science and Engineering\n
+ Tel:IIUC PABX-03042-51156-61, Ext: 416\n
+ Mobile:+8801789523129\n
+ Email: tanveerahsan@gmail.com\n\n
+        Prof. Mohammed Shamsul Alam
+ B.Sc.(Hons), M.Sc. in Electronics and Computer Science (SUST)\
+ Professor\n
+ Mobile: 01711941680\n
+ alam_cse@yahoo.com\n\n
+        Dr. Abu Naser Md. Rezaul Karim\n
+ B.Sc.(Hons), M.Sc. in Mathematics (CU)\n
+ PGD in ICT (BUET)\n
+ Ph.D (IU)\n
+ Associate Professor\n
+ Mobile: 01819941685\n
+ zakianaser@yahoo.com\n\n
+
+Mahadi Hassan	Mahadi Hassan\n
+ B.Sc.(Hons)[IIUC]\n
+ M.Sc. Engg [MMU, Malaysia]\n
+ Pursuing Ph.D [CUET]\n
+ Associate Professor\n
+ Mobile: 01957719040\n
+ mahadi_cse@yahoo.com\n\n
+        Shahidul Islam Khan\n
+ B.Sc in CSE [AUST]
+ M.Sc. [BUET]\n
+ Pursuing Ph.D [BUET]\n
+ Associate Professor\n
+ Mobile: 01837184801\n
+ nayeemkh@gmail.com
+    </string>
+</resources>
