@@ -22,20 +22,13 @@ private Intent intent;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        welcomebutton = (Button) findViewById(R.id.welcomebuttonId);
+
         facultybutton = (Button) findViewById(R.id.facultybuttonId);
         aboutbutton = (Button) findViewById(R.id.aboutbuttonId);
         contactbutton = (Button) findViewById(R.id.contactbuttonId);
 
 
-        welcomebutton = (Button) findViewById(R.id.welcomebuttonId);
-        welcomebutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SecondActivity.this,MainActivity.class);
-                startActivity(intent);
-            }
-        });
+
 facultybutton.setOnClickListener(this);
 aboutbutton.setOnClickListener(this);
 contactbutton.setOnClickListener(this);
@@ -73,9 +66,7 @@ contactbutton.setOnClickListener(this);
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        if (item.getItemId() == R.id.settingsId) {
-            Toast.makeText(SecondActivity.this, "Settings", Toast.LENGTH_SHORT).show();
-        }
+
 
         if (item.getItemId() == R.id.shareId) {
             Intent intent = new Intent(Intent.ACTION_SEND);

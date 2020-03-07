@@ -10,8 +10,6 @@
     <string name="contact_txt">Contact</string>
 
 
-
-
     <string name="faculty_txt">Mr. Tanveer Ahsan\n
  B.Sc in CSE [EWU], M.Sc. [UoU, South Korea]\n
  Associate Professor and Chairman\n
@@ -47,4 +45,70 @@ Mahadi Hassan	Mahadi Hassan\n
  Mobile: 01837184801\n
  nayeemkh@gmail.com
     </string>
+
+    <string name="about2_txt">
+       About CSE
+Mission
+The mission of the Department of Computer Science and Engineering is to offer
+        the strong academic program needed to produce well-educated students who can become
+        productive members of the Computer Science and Engineering profession. This mission
+        is consistent with the academic component of the Universitys mission, which is in part to provide a strong academic program in engineering.”
+
+Objectives
+The Objective of the undergraduate Computer Science and Engineering program is to instill in IIUC graduates the knowledge, skills, attitude, and ethical values necessary to be successful practitioners who are able to impart positive social impacts at the state, regional,
+        national, and international levels. Additionally, IIUC seek to provide the necessary academic background for Computer Science and Engineering graduates pursuing advanced degrees.”
+
+The Program Educational Objectives (PEO)
+The CSE Program Educational Objectives, which describe the professional accomplishments that graduates should achieve in various stages of professional career, and their associated Program Outcomes are as follows:
+
+PEO-1: Graduates should demonstrate the ability for early career professional growth based on their grasp of fundamental concepts in Computer Science and Engineering. Within the first few years after graduation, CSE graduates should be employed by an organization that serves the profession or enrolled in postgraduate studies. They should be participating in engineering practice based on their academic foundation.
+
+PEO-1 is associated with following Program Outcomes:
+
+an ability to apply knowledge of math, science, engineering.
+an ability to design and conduct experiments and analyze data.
+an ability to design a system, component, or process to meet desired needs within realistic constraints such as economic, political, environmental, social, ethical, health and , anufacturability, and sustainability.
+an ability to identify, formulate, and solve engineering problems.
+an ability to use the techniques, skills, and modern engineering tools necessary for engineering practice.
+PEO-2: Graduates should utilize knowledge and skills to participate in Computer Science and Engineering design and/or management processes. About five years beyond graduation, CSE graduates should be participating effectively in design processes and developing Computer Science and Engineering solutions within a team setting. They are expected to be engaged in management and leadership roles for Computer Science and Engineering projects and to assume positions of greater responsibility to the profession and public.
+
+PEO-2 is associated with following Program Outcomes:
+
+an ability to design a system, component,
+        or process to meet desired needs within realistic constraints such as economic,
+        political, environmental, social, ethical, health and, manufacturability, and sustainability.
+an ability to function on multi-disciplinary teams
+an ability to professional and ethical responsibility
+an ability to Communicate effectively
+a knowledge of contemporary issues.
+PEO-3: Graduates should develop professionally through a commitment to life-long learning. At all stages,
+        CSE graduates should exhibit their potential for a sustained productive career through life-long learning. They should continue the professional registration process if necessitated by employment.
+
+PEO-3 is associated with following Program Outcomes:
+
+an ability to understand the impact of engineering solutions in a global, economic, environmental, and societal context
+a recognition of the need for, and an ability to engage in Life-Long Learning
+a knowledge of contemporary issues
+    </string>
+
+    <string name="contact2_txt">International Islamic University Chittagong
+Kumira, Chittagong-4318, Bangladesh\n
+IP Tel.: +8809613230505\n
+Tel.: +88-03042-51153,+88-03042-51155,+88-03042-51156, +88-03042-51154-61\n
+Fax.: 03042 51160\n
+Email: info@iiuc.ac.bd\n\n\n
+
+For Admission Related Query\n
+Tel.: +88-03042-51154-61, Ext. 317, 390\n
+Mobile No.: 01720478621, 01844072082\n
+Mobile Numbers remain open during office hour (08.30 AM to 04.00 PM)\n
+Weekly Holiday: Thursday and Friday\n
+Email Address: acad@iiuc.ac.bd\n\n\n
+
+For Technical Query\n
+Tel.: +88-03042-51154-61, Ext. 384, 3060\n
+Mobile No.: 01841420300\n
+Email Address: admin@iiuc.ac.bd, yusuf.khalil88@gmail.com
+    </string>
+
 </resources>
