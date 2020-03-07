@@ -13,6 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
+
         <ImageView
 
             android:id="@+id/imageViewId"
@@ -31,21 +33,19 @@
             style="@style/Widget.AppCompat.Button.Colored"
 
             />
+
         <TextView
             android:id="@+id/textViewId"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/dep_name"
-           android:background="#CDDC39"
-           android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#CDDC39"
+            android:gravity="center_horizontal"
             android:lineSpacingExtra="40sp"
+            android:text="@string/dep_name"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            >
-        </TextView>
-
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
     </LinearLayout>
 
 </LinearLayout>
