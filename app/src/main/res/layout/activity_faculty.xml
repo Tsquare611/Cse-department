@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/faculty"
     tools:context=".FacultyActivity">
 
 
    <TextView
        android:paddingLeft="20dp"
-       android:background="#FFC107"
+       android:textColor="#E91E63"
        android:textSize="20sp"
        android:id="@+id/facultytextViewId"
        android:layout_width="match_parent"
