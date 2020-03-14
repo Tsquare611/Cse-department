@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#CDDC39"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpEmailEditTextId"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:hint="Email"
+        android:textColorHint="#9C27B0"
+        android:textColor="#F44336"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/signUpPasswordEditTextId"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:hint="Password"
+        android:textColorHint="#8BC34A"
+        android:textColor="#2196F3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/signUpButtonId"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you already Registered ? Sign In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/signInTextViewId"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbarId"/>
+</LinearLayout>

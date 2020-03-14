@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+
+    android:background="@drawable/splash"
+
+    tools:context=".SplashScreen">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Welcome To IIUC"
+android:gravity="center"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:textColor="#ff22"
+ android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+    >
+
+</TextView>
+    <ProgressBar
+        android:id="@+id/progressBarId"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="80dp"
+        android:progressBackgroundTint="#4CAF50"
+        android:progressTint="#FF9800" />
+
+</LinearLayout>

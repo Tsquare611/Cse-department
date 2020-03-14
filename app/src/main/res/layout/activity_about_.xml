@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/about"
     tools:context=".AboutActivity">
     <TextView
         android:paddingLeft="20dp"
-        android:background="#FFC107"
         android:textSize="20sp"
+        android:textColor="#060007"
         android:id="@+id/about2textViewId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
