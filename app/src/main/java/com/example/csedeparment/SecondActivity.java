@@ -24,7 +24,7 @@ private Intent intent;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-
+        mAuth = FirebaseAuth.getInstance();
 
         facultybutton = (Button) findViewById(R.id.facultybuttonId);
         aboutbutton = (Button) findViewById(R.id.aboutbuttonId);
@@ -90,12 +90,13 @@ contactbutton.setOnClickListener(this);
         {
             FirebaseAuth.getInstance().signOut();
             finish();
-            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+            Intent intent = new Intent(getApplicationContext(),SignInActivity.class);
             startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
     }
+
 }
 
 

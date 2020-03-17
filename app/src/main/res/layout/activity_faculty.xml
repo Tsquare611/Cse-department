@@ -10,7 +10,7 @@
 
    <TextView
        android:paddingLeft="20dp"
-       android:textColor="#E91E63"
+       android:textColor="#F5F2F2"
        android:textSize="20sp"
        android:id="@+id/facultytextViewId"
        android:layout_width="match_parent"

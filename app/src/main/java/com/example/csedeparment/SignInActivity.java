@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,7 +31,7 @@ public class SignInActivity extends AppCompatActivity  implements View.OnClickLi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
-        this.setTitle("Sign In Activity");
+        this.setTitle("Sign In ");
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -105,12 +107,13 @@ public class SignInActivity extends AppCompatActivity  implements View.OnClickLi
                 progressBar.setVisibility(View.GONE);
                 if(task.isSuccessful())
                 {
-                    finish();
+
                     Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                 }else {
                     Toast.makeText(getApplicationContext(),"Login Unsuccessful",Toast.LENGTH_LONG).show();
+
                 }
 
 
@@ -119,4 +122,8 @@ public class SignInActivity extends AppCompatActivity  implements View.OnClickLi
         });
 
     }
+
+
+
+
 }

@@ -4,7 +4,7 @@
     android:background="@drawable/contact"
     android:layout_height="match_parent">
     <TextView
-        android:textColor="#020000"
+        android:textColor="#FCF6F6"
         android:paddingLeft="20dp"
         android:textSize="20sp"
         android:id="@+id/contact2textViewId"
